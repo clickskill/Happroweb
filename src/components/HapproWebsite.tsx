@@ -792,7 +792,7 @@ export function HapproWebsite({
                 </span>
               </div>
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Grow Your Business
+                Grow Your Busine
                 <span className="block text-white mt-2">
                   With Happro
                 </span>
