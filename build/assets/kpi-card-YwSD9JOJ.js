@@ -1,0 +1,6 @@
+import{c as d,j as e,C as o,n as c,i as l}from"./index-zjRW8iId.js";import{T as x}from"./trending-up-DNIsK2CD.js";/**
+ * @license lucide-react v0.487.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const m=[["polyline",{points:"22 17 13.5 8.5 8.5 13.5 2 7",key:"1r2t7k"}],["polyline",{points:"16 17 22 17 22 11",key:"11uiuu"}]],u=d("trending-down",m);function f({title:r,value:n,change:s,icon:t,onClick:a,className:i}){return e.jsxs(o,{className:`cursor-pointer hover:shadow-md transition-shadow ${i}`,onClick:a,children:[e.jsxs(c,{className:"flex flex-row items-center justify-between space-y-0 pb-2",children:[e.jsx("h3",{className:"text-sm font-medium text-muted-foreground",children:r}),t&&e.jsx("div",{className:"text-muted-foreground",children:t})]}),e.jsxs(l,{children:[e.jsx("div",{className:"text-2xl font-bold",children:n}),s&&e.jsxs("div",{className:"flex items-center gap-1 text-xs text-muted-foreground mt-1",children:[s.type==="increase"?e.jsx(x,{className:"h-3 w-3 text-success"}):e.jsx(u,{className:"h-3 w-3 text-destructive"}),e.jsxs("span",{className:s.type==="increase"?"text-success":"text-destructive",children:[s.value>0?"+":"",s.value,"%"]}),e.jsxs("span",{children:["from ",s.period]})]})]})]})}export{f as K,u as T};

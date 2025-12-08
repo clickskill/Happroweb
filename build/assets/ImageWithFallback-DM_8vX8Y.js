@@ -1,0 +1,6 @@
+import{c as o,r as d,j as i}from"./index-zjRW8iId.js";/**
+ * @license lucide-react v0.487.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const x=[["line",{x1:"4",x2:"20",y1:"12",y2:"12",key:"1e0a9i"}],["line",{x1:"4",x2:"20",y1:"6",y2:"6",key:"1owob3"}],["line",{x1:"4",x2:"20",y1:"18",y2:"18",key:"yk5zj1"}]],j=o("menu",x),y="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODgiIGhlaWdodD0iODgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBvcGFjaXR5PSIuMyIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIzLjciPjxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iNiIvPjxwYXRoIGQ9Im0xNiA1OCAxNi0xOCAzMiAzMiIvPjxjaXJjbGUgY3g9IjUzIiBjeT0iMzUiIHI9IjciLz48L3N2Zz4KCg==";function m(s){const[l,I]=d.useState(!1),n=()=>{I(!0)},{src:e,alt:c,style:a,className:r,...t}=s;return l?i.jsx("div",{className:`inline-block bg-gray-100 text-center align-middle ${r??""}`,style:a,children:i.jsx("div",{className:"flex items-center justify-center w-full h-full",children:i.jsx("img",{src:y,alt:"Error loading image",...t,"data-original-url":e})})}):i.jsx("img",{src:e,alt:c,className:r,style:a,...t,onError:n})}export{m as I,j as M};
